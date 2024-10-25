@@ -1,0 +1,13 @@
+.shopItemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the items horizontally */
+  }
+  
+  .shopItemContainer>div {
+    flex-basis: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
